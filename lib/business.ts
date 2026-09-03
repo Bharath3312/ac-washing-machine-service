@@ -12,11 +12,11 @@
 
 export const business = {
   // --- Core identity -------------------------------------------------------
-  name: "CoolCare AC & Appliance Service",
-  shortName: "CoolCare",
+  name: "Sri Renganathan Service Center",
+  shortName: "Sri Renganathan",
   tagline: "Reliable AC & Washing Machine Service in Madurai",
   description:
-    "CoolCare provides fast, affordable and reliable air conditioner and washing machine repair, service and installation across Madurai, Tamil Nadu. Same-day doorstep service by trained technicians.",
+    "Sri Renganathan Service Center provides fast, affordable and reliable air conditioner and washing machine repair, service and installation across Madurai, Tamil Nadu. Same-day doorstep service by trained technicians.",
   foundingYear: 2024,
 
   // --- Contact -------------------------------------------------------------
@@ -24,7 +24,7 @@ export const business = {
   phoneDisplay: "+91 98765 43210",
   phone: "+919876543210",
   whatsapp: "919876543210", // digits only, country code first
-  email: "hello@coolcaremadurai.example",
+  email: "hello@srirenganathanmadurai.example",
 
   // --- Address (mock) ------------------------------------------------------
   address: {
@@ -67,7 +67,7 @@ export const business = {
 
   // --- Site ----------------------------------------------------------------
   // Update this to the final production domain before launch.
-  url: "https://www.coolcaremadurai.example",
+  url: "https://www.srirenganathanmadurai.example",
   locale: "en_IN",
 
   // Trust signals (kept factual — no fake reviews)

@@ -28,7 +28,7 @@ const cards = [
 
 export function ServicesOverview() {
   return (
-    <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+    <section className="section-tint border-y border-primary/10 px-4 py-16 sm:px-6">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="font-heading text-2xl font-extrabold tracking-tight text-foreground text-balance sm:text-3xl">
           Our services
@@ -44,7 +44,7 @@ export function ServicesOverview() {
           return (
             <article
               key={card.href}
-              className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-sm transition-shadow hover:shadow-md"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-primary/10 bg-card soft-shadow transition-transform hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <Image

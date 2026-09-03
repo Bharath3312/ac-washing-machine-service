@@ -9,7 +9,7 @@ export function CtaBand({
   subtitle?: string
 }) {
   return (
-    <section className="bg-primary text-primary-foreground">
+    <section className="brand-gradient text-primary-foreground shadow-inner">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-14 text-center sm:px-6">
         <div className="space-y-3">
           <h2 className="font-heading text-2xl font-extrabold tracking-tight text-balance sm:text-3xl">
