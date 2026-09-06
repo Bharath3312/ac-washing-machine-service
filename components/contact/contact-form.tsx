@@ -59,7 +59,7 @@ export function ContactForm() {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             className={inputClasses}
-            placeholder="e.g. 98765 43210"
+            placeholder="e.g. +91 63690 88981"
             required
           />
         </div>
