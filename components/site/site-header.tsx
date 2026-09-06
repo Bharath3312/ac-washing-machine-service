@@ -27,10 +27,7 @@ export function SiteHeader() {
             <span className="font-heading text-[clamp(0.9rem,2vw,1.15rem)] font-black uppercase tracking-[0.08em] text-foreground">
               SRI RENGANATHAN
             </span>
-            <span className="mt-1 text-[0.6rem] font-bold uppercase tracking-[0.24em] text-primary sm:text-[0.68rem]">
-              SERVICE CENTER
-            </span>
-            <span className="mt-1 truncate text-[0.5rem] font-semibold uppercase tracking-[0.12em] text-muted-foreground sm:text-[0.58rem]">
+            <span className="mt-1 truncate text-[0.56rem] font-semibold uppercase tracking-[0.12em] text-muted-foreground sm:text-[0.64rem]">
               AC &amp; WASHING MACHINE SERVICES
             </span>
           </span>
