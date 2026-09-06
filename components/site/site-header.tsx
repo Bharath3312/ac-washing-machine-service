@@ -23,11 +23,16 @@ export function SiteHeader() {
           <span className="brand-gradient flex size-10 items-center justify-center rounded-xl text-primary-foreground shadow-sm ring-4 ring-primary/10">
             <Snowflake className="size-5" aria-hidden="true" />
           </span>
-          <span className="flex flex-col leading-none">
-            <span className="font-heading text-base font-extrabold tracking-tight text-foreground">
-              {business.shortName}
+          <span className="flex min-w-0 flex-col justify-center leading-none">
+            <span className="font-heading text-[clamp(0.9rem,2vw,1.15rem)] font-black uppercase tracking-[0.08em] text-foreground">
+              SRI RENGANATHAN
             </span>
-            <span className="text-[11px] font-medium text-muted-foreground">AC &amp; Appliance Service</span>
+            <span className="mt-1 text-[0.6rem] font-bold uppercase tracking-[0.24em] text-primary sm:text-[0.68rem]">
+              SERVICE CENTER
+            </span>
+            <span className="mt-1 truncate text-[0.5rem] font-semibold uppercase tracking-[0.12em] text-muted-foreground sm:text-[0.58rem]">
+              AC &amp; WASHING MACHINE SERVICES
+            </span>
           </span>
         </Link>
 
