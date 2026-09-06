@@ -10,7 +10,7 @@ export function ServiceList({ services }: { services: Service[] }) {
           <article
             key={s.slug}
             id={s.slug}
-            className="scroll-mt-24 rounded-xl border border-border bg-card p-6 shadow-sm"
+            className="scroll-mt-24 rounded-2xl border border-primary/10 bg-card p-6 soft-shadow transition-shadow hover:shadow-lg"
           >
             <h2 className="font-heading text-xl font-bold text-foreground">{s.name}</h2>
             <p className="mt-2 leading-relaxed text-muted-foreground">{s.description}</p>
@@ -28,7 +28,7 @@ export function ServiceList({ services }: { services: Service[] }) {
         ))}
       </div>
 
-      <div className="mt-10 flex flex-col items-center gap-4 rounded-xl border border-border bg-secondary/50 p-8 text-center">
+      <div className="mt-10 flex flex-col items-center gap-4 rounded-2xl border border-primary/10 bg-gradient-to-br from-accent/70 to-secondary/60 p-8 text-center soft-shadow">
         <p className="font-heading text-lg font-bold text-foreground text-balance">
           Book your service in under a minute
         </p>

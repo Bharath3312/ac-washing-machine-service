@@ -12,27 +12,27 @@
 
 export const business = {
   // --- Core identity -------------------------------------------------------
-  name: "CoolCare AC & Appliance Service",
-  shortName: "CoolCare",
+  name: "Sri Renganathan Service Center",
+  shortName: "Sri Renganathan",
   tagline: "Reliable AC & Washing Machine Service in Madurai",
   description:
-    "CoolCare provides fast, affordable and reliable air conditioner and washing machine repair, service and installation across Madurai, Tamil Nadu. Same-day doorstep service by trained technicians.",
+    "Sri Renganathan Service Center provides fast, affordable and reliable air conditioner and washing machine repair, service and installation across Madurai, Tamil Nadu. Same-day doorstep service by trained technicians.",
   foundingYear: 2024,
 
   // --- Contact -------------------------------------------------------------
   // Use full international format for tel/WhatsApp links (no spaces).
-  phoneDisplay: "+91 98765 43210",
-  phone: "+919876543210",
-  whatsapp: "919876543210", // digits only, country code first
-  email: "hello@coolcaremadurai.example",
+  phoneDisplay: "+91 63690 88981",
+  phone: "+916369088981",
+  whatsapp: "916369088981", // digits only, country code first
+  email: "srirenganathan01@gmail.com",
 
   // --- Address (mock) ------------------------------------------------------
   address: {
-    street: "No. 12, Kamarajar Salai",
-    area: "Anna Nagar",
+    street: "16/22, Ponnagaram 2nd Street",
+    area: "Arapalayam",
     city: "Madurai",
     state: "Tamil Nadu",
-    postalCode: "625020",
+    postalCode: "625016",
     country: "IN",
   },
 
@@ -43,7 +43,7 @@ export const business = {
   },
 
   // Google Maps embed/directions query
-  mapQuery: "Madurai, Tamil Nadu",
+  mapQuery: "16/22, Ponnagaram 2nd Street, Arapalayam, Madurai, Tamil Nadu 625016, India",
 
   // --- Hours ---------------------------------------------------------------
   hours: {
@@ -67,7 +67,7 @@ export const business = {
 
   // --- Site ----------------------------------------------------------------
   // Update this to the final production domain before launch.
-  url: "https://www.coolcaremadurai.example",
+  url: "https://www.srirenganathanmadurai.example",
   locale: "en_IN",
 
   // Trust signals (kept factual — no fake reviews)

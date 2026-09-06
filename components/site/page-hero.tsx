@@ -10,7 +10,7 @@ export function PageHero({
   crumbs: { name: string; path: string }[]
 }) {
   return (
-    <section className="border-b border-border bg-secondary/40">
+    <section className="border-b border-primary/10 bg-gradient-to-br from-accent/70 via-background to-background">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:py-14">
         <Breadcrumbs items={crumbs} />
         <h1 className="mt-4 font-heading text-3xl font-extrabold tracking-tight text-foreground text-balance sm:text-4xl">

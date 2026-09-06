@@ -64,7 +64,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border shadow-sm">
             <Image
               src="/images/hero-technician.png"
-              alt="CoolCare technician working on an air conditioner"
+              alt="Sri Renganathan Service Center technician working on an air conditioner"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"

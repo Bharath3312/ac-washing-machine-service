@@ -8,7 +8,7 @@ import { blogPosts } from "@/lib/blog"
 export const metadata: Metadata = {
   title: "Appliance Care Blog",
   description:
-    "Practical tips and guides on AC and washing machine care, maintenance and repair from CoolCare's technicians in Madurai.",
+    "Practical tips and guides on AC and washing machine care, maintenance and repair from Sri Renganathan Service Center's technicians in Madurai.",
   alternates: { canonical: "/blog" },
 }
 
