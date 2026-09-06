@@ -18,8 +18,8 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/85 shadow-sm backdrop-blur-xl supports-[backdrop-filter]:bg-background/75">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2" aria-label={`${business.name} home`}>
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:gap-4 sm:px-6">
+        <Link href="/" className="flex shrink-0 items-center gap-2" aria-label={`${business.name} home`}>
           <span className="brand-gradient flex size-10 items-center justify-center rounded-xl text-primary-foreground shadow-sm ring-4 ring-primary/10">
             <Snowflake className="size-5" aria-hidden="true" />
           </span>
@@ -33,13 +33,13 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+        <nav className="hidden shrink-0 items-center gap-0 lg:flex" aria-label="Primary">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               className={cn(
-                "rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-primary",
+                "whitespace-nowrap rounded-md px-2.5 py-2 text-sm font-medium transition-colors hover:text-primary",
                 isActive(link.href) ? "text-primary" : "text-muted-foreground",
               )}
               aria-current={isActive(link.href) ? "page" : undefined}
@@ -49,7 +49,7 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-2 lg:flex">
+        <div className="hidden shrink-0 items-center gap-2 lg:flex">
           <WhatsAppButton />
           <CallButton />
         </div>
